@@ -1,13 +1,18 @@
-import './App.scss'
-import { Toggle } from './components'
+import { Route, Routes } from "react-router-dom";
+import "./App.scss";
+import { Header } from "./components";
+import { OPTIONS } from "./constants";
+import { Home } from "./pages";
 
 function App() {
-
   return (
     <>
-      <Toggle />
+      <Header />
+      <Routes>
+        <Route path={OPTIONS.HOME.routerLink} element={<Home />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -11,5 +11,10 @@
 
 body {
   background-color: var(--color-background);
-  color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-foreground);
 }
