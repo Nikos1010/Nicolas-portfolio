@@ -4,13 +4,14 @@
 
   .link {
     text-transform: uppercase;
+    color: white;
 
     &:hover {
-      color: #7ac4e2bd;
+      color: #1bf7e5c0;
     }
   }
 
   .active {
-    color: #00b7ff;
+    color: #1bf7e3;
   }
 }

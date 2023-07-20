@@ -12,7 +12,7 @@ function Toggle() {
     const { style } = document.documentElement
     style.setProperty('--background', isDark ? '#1f2023' : '#efefef');
     style.setProperty('--foreground', isDark ? '#efefef' : '#1f2023');
-    style.setProperty('--primary', isDark ? '#151516' : '#e3e3e3');
+    style.setProperty('--primary', isDark ? 'linear-gradient(75deg, rgba(157,17,154,1) 0%, rgba(0,24,172,1) 100%)' : 'linear-gradient(264deg, rgba(194,73,205,1) 0%, rgba(72,90,196,1) 100%)');
   }, [isDark]);
 
   useEffect(() => {

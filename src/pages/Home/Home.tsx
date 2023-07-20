@@ -1,4 +1,10 @@
+import { Presentation } from "./components";
+
 function Home() {
-  return <div>Home</div>;
+  return (
+    <article>
+      <Presentation />
+    </article>
+  );
 }
 export default Home;
