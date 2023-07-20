@@ -8,9 +8,11 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path={OPTIONS.HOME.routerLink} element={<Home />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path={OPTIONS.HOME.routerLink} element={<Home />} />
+        </Routes>
+      </main>
     </>
   );
 }

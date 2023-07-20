@@ -10,8 +10,9 @@ function Toggle() {
 
   useEffect(() => {
     const { style } = document.documentElement
-    style.setProperty('--color-background', isDark ? '#1f2023' : '#efefef');
-    style.setProperty('--color-foreground', isDark ? '#efefef' : '#1f2023');
+    style.setProperty('--background', isDark ? '#1f2023' : '#efefef');
+    style.setProperty('--foreground', isDark ? '#efefef' : '#1f2023');
+    style.setProperty('--primary', isDark ? '#151516' : '#e3e3e3');
   }, [isDark]);
 
   useEffect(() => {

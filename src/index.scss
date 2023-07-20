@@ -1,6 +1,7 @@
 :root {
-  --color-background: #fafafa;
-  --color-foreground: #1f2023;
+  --background: #fafafa;
+  --foreground: #1f2023;
+  --primary: #151516;
 }
 
 * {
@@ -10,11 +11,11 @@
 }
 
 body {
-  background-color: var(--color-background);
-  color: var(--color-foreground);
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 a {
   text-decoration: none;
-  color: var(--color-foreground);
+  color: var(--foreground);
 }
