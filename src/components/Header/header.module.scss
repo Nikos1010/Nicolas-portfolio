@@ -8,16 +8,8 @@
   top: 0;
   background: var(--primary);
 
-  .containerLink {
+  .buttons {
     display: flex;
     gap: 15px;
-  }
-
-  .link {
-    text-transform: uppercase;
-  }
-
-  .active {
-    color: #0f9cd3;
   }
 }

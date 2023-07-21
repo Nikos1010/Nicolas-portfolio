@@ -1,12 +1,15 @@
 import { NavLink } from "react-router-dom";
 import styles from "./option.module.scss";
 import { BodyOption } from "../../models";
+import { useTranslate } from "../../hooks";
 
 interface Props {
   routes: BodyOption[];
 }
 
 function Options({ routes }: Props) {
+  const { translateWord } = useTranslate();
+
   return (
     <nav className={styles.containerLink}>
       {routes.map((option) => (
@@ -16,7 +19,7 @@ function Options({ routes }: Props) {
           className={({ isActive }) =>
             isActive ? `${styles.link} ${styles.active}` : styles.link
           }>
-          {option.label}
+          {translateWord(option.label)}
         </NavLink>
       ))}
     </nav>

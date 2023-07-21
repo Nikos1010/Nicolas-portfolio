@@ -4,6 +4,7 @@ function Home() {
   return (
     <article>
       <Presentation />
+      {/* Buscar una API de twiter, para conectarme ahi */}
     </article>
   );
 }
