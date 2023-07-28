@@ -1,7 +1,7 @@
 import { useTranslate } from "../../../../hooks";
 import style from "./presentation.module.scss";
 import imgProfile from "../../../../assets/profile.png";
-import { ContainerTags } from "../../../../components";
+import { ContainerTags, Subtitle } from "../../../../components";
 import { TAGSABOUT } from "../../constants";
 
 function Presentation() {
@@ -9,7 +9,7 @@ function Presentation() {
   return (
     <section className={style.container}>
       <div className={style.containerText}>
-        <h3>{translateWord("About_me")}</h3>
+        <Subtitle name={"About_me"} />
         <p>
           <strong>{translateWord("Impactful_phrase")}</strong>.{" "}
           {translateWord("describe_me")}
