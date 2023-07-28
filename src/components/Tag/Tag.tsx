@@ -8,8 +8,17 @@ interface Props {
 }
 
 function Tag({ name, icon, link }: Props) {
+  const hoverStyle: Record<string, string> = {
+    linkedin: style.linkedin,
+    email: style.gmail,
+  };
+
+  const styleTag = (): string => {
+    return link ? hoverStyle[name.toLocaleLowerCase()] : style.noEvent;
+  };
+
   return (
-    <a className={`${style.tag} ${link ? '': style.noEvent}`} href={link} target="_blank">
+    <a className={`${style.tag} ${styleTag()}`} href={link} target="_blank">
       {icon}
       <span>{name}</span>
     </a>
