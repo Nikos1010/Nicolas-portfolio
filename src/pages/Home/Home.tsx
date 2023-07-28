@@ -1,6 +1,6 @@
 import { ContainerTags } from "../../components";
 import { useTranslate } from "../../hooks";
-import { Presentation } from "./components";
+import { Presentation, Projects } from "./components";
 import { TAGSHOME } from "./constants";
 import style from "./home.module.scss";
 
@@ -15,6 +15,7 @@ function Home() {
         <ContainerTags tags={TAGSHOME} />
       </div>
       <Presentation />
+      <Projects />
     </article>
   );
 }

@@ -1,1 +1,1 @@
-export * from './homeTag.constants';
+export * from './home.constants';
