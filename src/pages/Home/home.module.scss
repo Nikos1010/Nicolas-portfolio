@@ -1,0 +1,25 @@
+.containerHome {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+  .title {
+    text-align: center;
+    margin-top: 80px;
+    display: grid;
+    gap: 20px;
+
+    h1 {
+      text-shadow: 5px 2px #01001a40;
+      font-size: 60px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      text-shadow: 2px 4px #00000099;
+      font-size: 50px;
+      font-weight: 600;
+    }
+  }
+}

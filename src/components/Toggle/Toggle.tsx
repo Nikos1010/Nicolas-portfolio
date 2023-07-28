@@ -10,9 +10,10 @@ function Toggle() {
 
   useEffect(() => {
     const { style } = document.documentElement
-    style.setProperty('--background', isDark ? '#1f2023' : '#efefef');
-    style.setProperty('--foreground', isDark ? '#efefef' : '#1f2023');
-    style.setProperty('--primary', isDark ? 'linear-gradient(75deg, rgba(157,17,154,1) 0%, rgba(0,24,172,1) 100%)' : 'linear-gradient(264deg, rgba(194,73,205,1) 0%, rgba(72,90,196,1) 100%)');
+    style.setProperty('--background', isDark ? '#2F2B2E' : '#EFEFEF');
+    style.setProperty('--foreground', isDark ? '#EFEFEF' : '#000');
+    style.setProperty('--buttons-background', isDark ? '#2D1140' : '#9D25F3');
+    style.setProperty('--primary', isDark ? 'linear-gradient(182deg, #59181E 0%, #371F48 90.10%)' : 'linear-gradient(179deg, #F755BE 0%, #B55EF3 100%)');
   }, [isDark]);
 
   useEffect(() => {
