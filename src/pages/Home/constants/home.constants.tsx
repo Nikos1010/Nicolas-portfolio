@@ -7,7 +7,7 @@ import {
   BiLogoReact,
 } from "react-icons/bi";
 import { ModelTag } from "../../../models";
-import fundation from "../../../assets/fundacion.png";
+import fundation from "../../../assets/img-fundacion.png";
 
 export const TAGSHOME: ModelTag[] = [
   {
