@@ -1,0 +1,17 @@
+.tag {
+  min-width: 120px;
+  height: 42px;
+  border-radius: 15px;
+  background: #1f2023;
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  cursor: pointer;
+
+  span {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}

@@ -16,9 +16,7 @@ function Options({ routes }: Props) {
         <NavLink
           key={option.routerLink}
           to={option.routerLink}
-          className={({ isActive }) =>
-            isActive ? `${styles.link} ${styles.active}` : styles.link
-          }>
+          className={styles.link}>
           {translateWord(option.label)}
         </NavLink>
       ))}

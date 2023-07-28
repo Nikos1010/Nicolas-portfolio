@@ -1,14 +1,17 @@
 :root {
-  --background: #fafafa;
-  --foreground: #1f2023;
-  --primary: linear-gradient(75deg, #9d119a 0%, #0018ac 100%);  
-  --secondary: #711ce7;
+  --background: #EFEFEF;
+  --foreground: #000;
+  --primary: linear-gradient(179deg, #F755BE 0%, #B55EF3 100%);
+  --buttons-background: #9D25F3;
+  --secondary: #120020;
+  --p-font-family: 'Open Sans', 'Roboto', sans-serif
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
 	padding: 0;
+  font-family: var(--p-font-family);
 }
 
 body {
