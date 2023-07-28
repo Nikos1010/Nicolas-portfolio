@@ -1,7 +1,7 @@
 export const OPTIONS = {
   HOME: {
     label: "home",
-    routerLink: "/home"
+    routerLink: "/"
   },
   CV: {
     label: "CV",

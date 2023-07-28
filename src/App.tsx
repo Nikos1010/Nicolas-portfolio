@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.scss";
 import { Header } from "./components";
 import { OPTIONS } from "./constants";
@@ -12,6 +12,7 @@ function App() {
       <main>
         <Routes>
           <Route path={OPTIONS.HOME.routerLink} element={<Home />} />
+          <Route path="*" element={<Navigate to={OPTIONS.HOME.routerLink} />} />
         </Routes>
       </main>
     </LanguageProvider>
