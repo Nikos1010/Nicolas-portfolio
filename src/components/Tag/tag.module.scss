@@ -1,17 +1,24 @@
 .tag {
-  min-width: 120px;
+  min-width: 140px;
   height: 42px;
   border-radius: 15px;
-  background: #1f2023;
-  display: grid;
-  place-items: center;
-  padding: 5px;
+  background: #0000004f;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
   cursor: pointer;
+  user-select: none;
 
   span {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #fff;
   }
+}
+
+.noEvent {
+  pointer-events: none;
+  cursor: default;
 }

@@ -1,15 +1,20 @@
 import { Card, Subtitle } from "../../../../components";
 import style from "./projects.module.scss";
-import fundation from '../../../../assets/fundacion.png'
+import { PROJECTS } from "../../constants";
 
 function Projects() {
-  const PROJECTS = ["Fundación Cultipva-T", "Arroz con Pollo", "Rappi", "No se que pedo"];
   return (
     <section className={style.containerProject}>
       <Subtitle name={"Projects"} />
       <div className={style.listProjects}>
-        {PROJECTS.map((proj, i) => (
-          <Card key={i} name={proj} img={fundation} />
+        {PROJECTS.map((proj) => (
+          <Card
+            key={proj.key}
+            name={proj.name}
+            img={proj.img}
+            demo={proj.demo}
+            git={proj.github}
+          />
         ))}
       </div>
     </section>

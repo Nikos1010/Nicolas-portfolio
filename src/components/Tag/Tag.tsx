@@ -1,14 +1,18 @@
+import { ReactElement } from "react";
 import style from "./tag.module.scss";
 
 interface Props {
   name: string;
+  icon: ReactElement;
+  link?: string;
 }
 
-function Tag({ name }: Props) {
+function Tag({ name, icon, link }: Props) {
   return (
-    <div className={style.tag}>
+    <a className={`${style.tag} ${link ? '': style.noEvent}`} href={link} target="_blank">
+      {icon}
       <span>{name}</span>
-    </div>
+    </a>
   );
 }
 export default Tag;
