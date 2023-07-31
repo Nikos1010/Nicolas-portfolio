@@ -1,0 +1,47 @@
+.container {
+  padding: 25px 0;
+
+  .containerTitle {
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+      font-size: 25px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+  }
+
+  .linkTo:hover {
+    color: #9c9c9c8a;
+  }
+}
+
+.bt0 {
+  padding-bottom: 0;
+}
+
+.section .containerTitle {
+  flex-wrap: wrap;
+  gap: 10px 15px;
+  padding-bottom: 0;
+  padding-bottom: 10px;
+
+  p {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 16px;
+    text-transform: none;
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+}
