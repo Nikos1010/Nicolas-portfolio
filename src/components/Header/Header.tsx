@@ -4,7 +4,7 @@ import styles from "./header.module.scss";
 import DropdownLanguage from "../DropdownLanguage/DropdownLanguage";
 
 function Header() {
-  const optionNav = [OPTIONS.HOME];
+  const optionNav = [OPTIONS.HOME, OPTIONS.CV];
 
   return (
     <header className={styles.header}>

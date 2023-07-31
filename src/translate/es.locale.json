@@ -2,11 +2,22 @@
   "English": "Inglés",
   "Spanish": "Español",
   "home": "Inicio",
+  "CV": "hv",
   "Frontend_Developer": "Desarrollador Frontend",
   "Impactful_phrase": "Descubriendo lo conocido.",
   "describe_me": "Siempre en búsqueda de emocionantes desafíos que me permitan crecer. Me motiva la música y la creatividad en el desarrollo. Listo para sumar mi talento en proyectos inspiradores.",
   "service_from_colombia": "¡A la orden desde Colombia!",
   "invitation_from_colombia": "¡Juntos conquistaremos nuevos horizontes y exploraremos lo desconocido!",
   "About_me": "Acerca de mí",
-  "Projects": "Proyectos"
+  "Projects": "Proyectos",
+  "Skills": "Habilidades",
+  "Experience": "Experiencia",
+  "Education": "Educación",
+  "Student": "Estudiante",
+  "Planet1": "Desarrollo de diversas páginas web, cumpliendo con los requisitos establecidos y mejorando la experiencia del usuario en un 80%.",
+  "Planet2": "Implementar varias tablas con validaciones adecuadas antes de consumir el servicio.",
+  "FCT1": "Reestructuración del 100% del sitio para hacerlo más amigable para el usuario.",
+  "FCT2": "Encabezar conversaciones con el cliente, desarrollar un plan de priorización de funciones y liderar a un equipo de 3 desarrolladores para implementar 10 características.",
+  "Globant1": "Desarrollo +6 repositorios, aplicando patrones de diseño, pruebas unitarias y programación funcional.",
+  "Globant2": "Incorporación de principios sólidos y operaciones asíncronas en +2 repositorios, para que puedan ser escalables."
 }

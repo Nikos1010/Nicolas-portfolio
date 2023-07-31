@@ -2,13 +2,24 @@
   "English": "English",
   "Spanish": "Spanish",
   "home": "Home",
+  "CV": "cv",
   "Frontend_Developer": "Frontend Developer",
   "Impactful_phrase": "Discovering the known.",
   "describe_me": "Always in search of exciting challenges that allow me to grow. Music and creativity drive me in development. Ready to contribute my talent to inspiring projects.",
   "service_from_colombia": "At your service from Colombia!",
   "invitation_from_colombia": "Together, we'll conquer new horizons and explore the unknown!",
   "About_me": "About me",
-  "Projects": "Projects"
+  "Projects": "Projects",
+  "Skills": "Skills",
+  "Experience": "Experience",
+  "Education": "Education",
+  "Student": "Student",
+  "Planet1": "Development of various web pages, meeting the established requirements, and enhancing the user experience by 80%.",
+  "Planet2": "Implement various tables with appropriate validations before consuming the service.",
+  "FCT1": "Re-structuring 100% of the site to make it more user-friendly.",
+  "FCT2": "Spearheaded client conversations, developed a roadmap for feature prioritization, and led a team of 3 developers to implement 10 features.",
+  "Globant1": "Develop +6 repositories, putting into practice design patterns, unit tests, and functional programming.",
+  "Globant2": "Incorporation of sound principles and asynchronous operations in +2 repositories, so that they can be scalable."
 }
 
 

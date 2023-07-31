@@ -1,0 +1,13 @@
+.sectionTitle {
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+}
